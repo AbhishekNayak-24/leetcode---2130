@@ -5,8 +5,7 @@ class Solution {
     public int pairSum(ListNode head) {
         ListNode slowPtr = head;
         ListNode fastPtr = head;
-        ListNode prevPtr = null;
-mmmmmmmm
+        ListNode prevPtr = nul
         // Reverse the first half of the linked list
         while (fastPtr != null && fastPtr.next != null) {
             fastPtr = fastPtr.next.next;
