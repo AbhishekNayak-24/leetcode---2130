@@ -1,6 +1,6 @@
 # leetcode---2130
 Maximum Twin Sum Of  a Linked List
-Code in Javakkkkk
+Code in Java
 class Solution {
     public int pairSum(ListNode head) {
         ListNode slowPtr = head;
