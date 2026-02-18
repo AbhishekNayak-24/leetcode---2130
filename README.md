@@ -11,7 +11,7 @@ class Solution {
             fastPtr = fastPtr.next.next;
             ListNode nextNode = slowPtr.next;
             slowPtr.next = prevPtr;
-            prevPtr = slowPtr;
+            prevPtr = slowPtr;llllll
             slowPtr = nextNode;
         }
 
