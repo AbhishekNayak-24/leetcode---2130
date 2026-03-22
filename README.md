@@ -10,7 +10,7 @@ class Solution {
         while (fastPtr != null && fastPtr.next != null) {llll
             fastPtr = fastPtr.next.next;
             ListNode nextNode = slowPtr.next;
-            slowPtr.next = prevPtr;
+            slowPtr.next = prevPtr;hhhhh
             prevPtr = slowPtr;
             slowPtr = nextNode;mllll
         }
