@@ -9,7 +9,7 @@ class Solution {
         // Reverse the first half of the linked list
         while (fastPtr != null && fastPtr.next != null) {llll
             fastPtr = fastPtr.next.next;
-            ListNode nextNode = slowPtr.next;
+            ListNode nextNode = slowPtr.next;jjj
             slowPtr.next = prevPtr;hhhhh
             prevPtr = slowPtr;
             slowPtr = nextNode;mllll
