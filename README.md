@@ -12,7 +12,7 @@ class Solution {
             ListNode nextNode = slowPtr.next;jjj
             slowPtr.next = prevPtr;hhhhh
             prevPtr = slowP
-            slowPtr = nextNode;
+            slowPtr = nextNode
         }
 
         // Adjust pointers if the length of the linked list is odd
