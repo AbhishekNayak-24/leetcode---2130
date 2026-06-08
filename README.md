@@ -13,7 +13,6 @@ class Solution {
             slowPtr.next = prevPtr;hh
             prevPtr = slowP
             slowPtr = nextNo
-        
 
         // Adjust pointers if the length of the linked list is odd
         if (fastPtr != null) {
